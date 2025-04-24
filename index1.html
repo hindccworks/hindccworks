@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hind Tel - Herbal Pain Relief Oil | Hind CC Works</title>
+    <meta name="description" content="Hind Tel - The trusted herbal pain relief oil since 1933. Chemical-free formula for joint, back, and muscle pain relief.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .hero-bg {
+            background: linear-gradient(rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url('https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #4a7c59;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .ingredient-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .ingredient-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .testimonial-card {
+            transition: transform 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: scale(1.02);
+        }
+        
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://via.placeholder.com/50x50" alt="Hind Tel Logo" class="h-12 w-12 mr-3">
+                <a href="#" class="text-2xl font-bold text-gray-800">Hind<span class="text-green-700">Tel</span></a>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link text-gray-700 hover:text-green-700">Home</a>
+                <a href="#about" class="nav-link text-gray-700 hover:text-green-700">About Us</a>
+                <a href="#product" class="nav-link text-gray-700 hover:text-green-700">Product</a>
+                <a href="#testimonials" class="nav-link text-gray-700 hover:text-green-700">Testimonials</a>
+                <a href="#contact" class="nav-link text-gray-700 hover:text-green-700">Contact</a>
+            </nav>
+            
+            <button class="md:hidden text-gray-700" id="mobile-menu-button">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-white w-full py-4 px-4 shadow-md" id="mobile-menu">
+            <div class="flex flex-col space-y-4">
+                <a href="#home" class="text-gray-700 hover:text-green-700">Home</a>
+                <a href="#about" class="text-gray-700 hover:text-green-700">About Us</a>
+                <a href="#product" class="text-gray-700 hover:text-green-700">Product</a>
+                <a href="#testimonials" class="text-gray-700 hover:text-green-700">Testimonials</a>
+                <a href="#contact" class="text-gray-700 hover:text-green-700">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg py-20 md:py-32 fade-in">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Experience Natural <span class="text-green-700">Pain Relief</span></h1>
+                <p class="text-lg text-gray-600 mb-8">Hind Tel's herbal formula has been trusted for generations to provide effective relief from joint, back, and muscle pain without harmful chemicals.</p>
+                <div class="flex space-x-4">
+                    <a href="#product" class="btn-primary bg-green-700 text-white px-6 py-3 rounded-md font-medium">Learn More</a>
+                    <a href="#contact" class="btn-primary border-2 border-green-700 text-green-700 px-6 py-3 rounded-md font-medium">Contact Us</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://via.placeholder.com/400x500" alt="Hind Tel Product" class="rounded-lg shadow-xl max-h-96">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Why Choose <span class="text-green-700">Hind Tel</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg text-center">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-leaf text-green-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">100% Herbal</h3>
+                    <p class="text-gray-600">Made with natural ingredients, free from harmful chemicals and synthetic additives.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg text-center">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-clock text-green-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Proven Legacy</h3>
+                    <p class="text-gray-600">Trusted formula perfected over 90 years of continuous refinement and improvement.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg text-center">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-heart text-green-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Effective Relief</h3>
+                    <p class="text-gray-600">Provides fast-acting relief for joint pain, backaches, and muscle soreness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Our <span class="text-green-700">Story</span></h2>
+            
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <img src="https://via.placeholder.com/500x400" alt="Hind CC Works History" class="rounded-lg shadow-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <div class="mb-8">
+                        <h3 class="text-xl font-semibold text-green-700 mb-2">1933 - The Beginning</h3>
+                        <p class="text-gray-600">Founded as Darul Adwia by Mohammad Mustafa, a visionary with deep knowledge of traditional medicines and healing practices.</p>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <h3 class="text-xl font-semibold text-green-700 mb-2">1948 - Rebranding</h3>
+                        <p class="text-gray-600">Rebranded as Hind CC Works (Hind Chemical Cosmetic Works) to reflect the growing scope of our medicinal products.</p>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <h3 class="text-xl font-semibold text-green-700 mb-2">2012 - New Era</h3>
+                        <p class="text-gray-600">Evolved into Hind CC Works (Hind Chemical Curative Works) under the leadership of Khalid Mustafa, focusing on curative herbal solutions with Hind Tel as our flagship product.</p>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-semibold text-green-700 mb-2">Present Day</h3>
+                        <p class="text-gray-600">Continuing our founder's legacy, we combine traditional wisdom with modern quality standards to bring effective, natural pain relief to families across generations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="product" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Hind Tel <span class="text-green-700">Herbal Oil</span></h2>
+            
+            <div class="flex flex-col md:flex-row mb-12">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <img src="https://via.placeholder.com/500x500" alt="Hind Tel Product Close-up" class="rounded-lg shadow-lg w-full">
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Natural Relief for Everyday Pains</h3>
+                    <p class="text-gray-600 mb-6">Hind Tel's unique herbal formulation penetrates deep to provide fast-acting relief from various types of pain without the side effects of chemical-based alternatives.</p>
+                    
+                    <h4 class="text-xl font-semibold text-green-700 mb-3">Benefits:</h4>
+                    <ul class="mb-6 space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-600 mt-1 mr-2"></i>
+                            <span class="text-gray-600">Relieves joint pain and stiffness</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-600 mt-1 mr-2"></i>
+                            <span class="text-gray-600">Reduces backache and muscle soreness</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-600 mt-1 mr-2"></i>
+                            <span class="text-gray-600">Improves mobility and flexibility</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-600 mt-1 mr-2"></i>
+                            <span class="text-gray-600">Soothes inflammation naturally</span>
+                        </li>
+                    </ul>
+                    
+                    <h4 class="text-xl font-semibold text-green-700 mb-3">How to Use:</h4>
+                    <p class="text-gray-600 mb-6">Gently massage a small amount of Hind Tel onto the affected area 2-3 times daily. For best results, warm the oil slightly before application.</p>
+                    
+                    <div class="bg-green-50 p-4 rounded-lg">
+                        <h4 class="text-lg font-semibold text-green-700 mb-2">Safety Note:</h4>
+                        <p class="text-gray-600">For external use only. Avoid contact with eyes. Discontinue use if irritation occurs. Consult your physician before use if pregnant or nursing.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="text-2xl font-semibold text-center text-gray-800 mb-8">Key <span class="text-green-700">Ingredients</span></h3>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="ingredient-card bg-gray-50 p-6 rounded-lg text-center">
+                    <div class="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-spa text-green-700 text-3xl"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2 text-gray-800">Wintergreen Oil</h4>
+                    <p class="text-gray-600">Natural analgesic that helps relieve muscle and joint pain.</p>
+                </div>
+                
+                <div class="ingredient-card bg-gray-50 p-6 rounded-lg text-center">
+                    <div class="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-seedling text-green-700 text-3xl"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2 text-gray-800">Eucalyptus Oil</h4>
+                    <p class="text-gray-600">Reduces inflammation and improves circulation to the affected area.</p>
+                </div>
+                
+                <div class="ingredient-card bg-gray-50 p-6 rounded-lg text-center">
+                    <div class="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-leaf text-green-700 text-3xl"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2 text-gray-800">Camphor</h4>
+                    <p class="text-gray-600">Provides cooling relief and helps reduce pain sensations.</p>
+                </div>
+                
+                <div class="ingredient-card bg-gray-50 p-6 rounded-lg text-center">
+                    <div class="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-tree text-green-700 text-3xl"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2 text-gray-800">Turmeric Extract</h4>
+                    <p class="text-gray-600">Powerful anti-inflammatory properties to support healing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">What Our <span class="text-green-700">Customers Say</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-green-700 text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Rajesh K.</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"I've been using Hind Tel for my chronic back pain for over 5 years now. It's the only thing that provides me consistent relief without any side effects. Truly a miracle in a bottle!"</p>
+                </div>
+                
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-green-700 text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Priya M.</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"After trying countless pain relief products, I finally found Hind Tel. It's helped me manage my arthritis pain so much better than any prescription medication I've tried. The natural formula gives me peace of mind."</p>
+                </div>
+                
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-green-700 text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Amit S.</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"As an athlete, muscle soreness is a constant battle. Hind Tel has become an essential part of my recovery routine. It works quickly and the herbal scent is pleasant, not overpowering like other products."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Get In <span class="text-green-700">Touch</span></h2>
+            
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6">Contact Information</h3>
+                    
+                    <div class="mb-6">
+                        <div class="flex items-start mb-4">
+                            <div class="bg-green-100 w-10 h-10 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-green-700"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-1">Address</h4>
+                                <p class="text-gray-600">123 Herbal Lane, Kolkata - 700001<br>West Bengal, India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start mb-4">
+                            <div class="bg-green-100 w-10 h-10 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-phone-alt text-green-700"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-1">Phone</h4>
+                                <p class="text-gray-600">+91 98765 43210</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start mb-4">
+                            <div class="bg-green-100 w-10 h-10 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-green-700"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-1">Email</h4>
+                                <p class="text-gray-600">info@hindtel.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-green-100 w-10 h-10 rounded-full flex items-center justify-center mr-4">
+                                <i class="fab fa-whatsapp text-green-700"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-1">WhatsApp</h4>
+                                <p class="text-gray-600">+91 98765 43210</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Business Hours</h3>
+                    <p class="text-gray-600 mb-2">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                    <p class="text-gray-600">Saturday: 10:00 AM - 4:00 PM</p>
+                    
+                    <div class="mt-8">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-green-100 w-10 h-10 rounded-full flex items-center justify-center text-green-700 hover:bg-green-200">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="bg-green-100 w-10 h-10 rounded-full flex items-center justify-center text-green-700 hover:bg-green-200">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="bg-green-100 w-10 h-10 rounded-full flex items-center justify-center text-green-700 hover:bg-green-200">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6">Send Us a Message</h3>
+                    
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-gray-700 mb-1">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-gray-700 mb-1">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+                        </div>
+                        
+                        <div>
+                            <label for="phone" class="block text-gray-700 mb-1">Phone</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+                        </div>
+                        
+                        <div>
+                            <label for="subject" class="block text-gray-700 mb-1">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-gray-700 mb-1">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary bg-green-700 text-white px-6 py-3 rounded-md font-medium w-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://via.placeholder.com/40x40" alt="Hind Tel Logo" class="h-10 w-10 mr-2">
+                        <span class="text-xl font-bold">Hind<span class="text-green-400">Tel</span></span>
+                    </div>
+                    <p class="text-gray-400">Trusted herbal pain relief since 1933. A product of Hind Chemical Curative Works.</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-green-400">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-green-400">About Us</a></li>
+                        <li><a href="#product" class="text-gray-400 hover:text-green-400">Product</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-green-400">Testimonials</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-green-400">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Product</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-green-400">Ingredients</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-green-400">How to Use</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-green-400">Benefits</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-green-400">Safety Information</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Newsletter</h4>
+                    <p class="text-gray-400 mb-4">Subscribe to get updates on special offers and health tips.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l-md text-gray-800 w-full focus:outline-none">
+                        <button type="submit" class="bg-green-600 px-4 py-2 rounded-r-md hover:bg-green-700">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2023 Hind CC Works (Hind Chemical Curative Works). All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-green-400">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-green-400">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-green-400">Shipping Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+        
+        // Add fade-in animation when elements come into view
+        const fadeElements = document.querySelectorAll('.fade-in');
+        
+        const fadeObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                }
+            });
+        }, { threshold: 0.1 });
+        
+        fadeElements.forEach(element => {
+            element.style.opacity = 0;
+            fadeObserver.observe(element);
+        });
+    </script>
+</body>
+</html>
